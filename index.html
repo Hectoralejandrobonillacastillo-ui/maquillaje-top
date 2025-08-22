@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Maquillaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef6f9;
+        }
+        header {
+            background-color: #d63384;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8d7e0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d63384;
+            font-weight: bold;
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 15px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Maquillaje</h1>
+        <p>Encuentra tus marcas favoritas</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <section class="productos">
+        <div class="card">
+            <img src="https://static.soyfetiche.com/storage/skus/202108271723Ir3J.jpg" alt="Labial Dior">
+            <h3>Gloss Dior</h3>
+            <p>Q600.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61+MSRQHNcL._SL1500_.jpg" alt="Base Fenty Beaut">
+            <h3>Liquid Blush Makeup</h3>
+            <p>Q120.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://www.sephora.com/productimages/sku/s2515500-main-zoom.jpg" alt="Paleta Huda Beauty">
+            <h3>Paleta Huda Beauty</h3>
+            <p>Q420.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i0.wp.com/beautyhouse.co/wp-content/uploads/2025/01/Rare-Beauty-by-Selena-Gomez-Soft-Pinch-Liquid-Contour-.jpg?fit=800%2C700&ssl=1" alt="Máscara de Pestañas Maybelline">
+            <h3>Rare Beauty by Selena Gomez Soft Pinch Liquid Contour</h3>
+            <p>Q1500.00</p>
+        </div>
+    </section>
+</body>
+</html>
